@@ -34,11 +34,18 @@
 
 ## 설치
 
-1. 로컬 마켓플레이스로 추가하고 설치:
+1. **GitHub에서 설치 (공개):**
+
+   ```
+   /plugin marketplace add ehdrms785/seethrough
+   /plugin install seethrough@seethrough
+   ```
+
+   또는 개발 중이면 로컬 경로로:
 
    ```
    /plugin marketplace add /path/to/seethrough
-   /plugin install seethrough
+   /plugin install seethrough@seethrough
    ```
 
    설치되면 훅(router + finish-the-work)이 `hooks/hooks.json`으로 **자동 등록**된다.
