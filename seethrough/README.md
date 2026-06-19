@@ -38,14 +38,14 @@
 
    ```
    /plugin marketplace add ehdrms785/seethrough
-   /plugin install seethrough@seethrough
+   /plugin install seethrough@daro
    ```
 
    또는 개발 중이면 로컬 경로로:
 
    ```
    /plugin marketplace add /path/to/seethrough
-   /plugin install seethrough@seethrough
+   /plugin install seethrough@daro
    ```
 
    설치되면 훅(router + finish-the-work)이 `hooks/hooks.json`으로 **자동 등록**된다.
