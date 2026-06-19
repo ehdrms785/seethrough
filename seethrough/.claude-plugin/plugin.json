@@ -1,0 +1,8 @@
+{
+  "name": "seethrough",
+  "version": "0.1.0",
+  "description": "A harness that enforces completion, evidence, and verification as procedure. Auto-routes the right discipline per task: a multi-story evidence gate, an investigation protocol, render-output verification grounding, and an early-stop guard. It does not fake model capability — at the ceiling it tells you to escalate.",
+  "author": { "name": "daro", "email": "donggeunhong@vgen.co.kr" },
+  "keywords": ["harness", "verification", "completion", "agentic", "discipline"],
+  "skills": ["./skills/seethrough"]
+}

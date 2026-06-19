@@ -1,0 +1,16 @@
+{
+  "name": "seethrough",
+  "owner": { "name": "daro", "email": "donggeunhong@vgen.co.kr" },
+  "metadata": {
+    "description": "seethrough — completion/evidence/verification enforced as procedure",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "seethrough",
+      "source": "./",
+      "description": "Multi-story evidence gate, investigation protocol, verification grounding, early-stop guard, per-task routing.",
+      "category": "workflow"
+    }
+  ]
+}

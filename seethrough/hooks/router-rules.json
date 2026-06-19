@@ -1,0 +1,14 @@
+{
+  "rules": [
+    {
+      "id": "investigation",
+      "keywords": ["debug", "bug", "error", "traceback", "crash", "failing", "stacktrace", "regression", "버그", "디버그", "에러", "오류"],
+      "message": "[seethrough:investigation] 디버깅/근본원인 신호 감지 — __PLUGIN_ROOT__/packs/investigation-protocol.md 를 따른다: 먼저 재현 → 3개 이상의 경쟁 가설 → 가설별 증거 수집 → 전체 인과 사슬 추적(증상 제거 ≠ 결함 제거) → 수정 전후 검증 → 기각한 가설까지 보고."
+    },
+    {
+      "id": "grounding",
+      "keywords": ["html", "svg", "game", "canvas", "chart", "render", "website", "webpage", "ui", "animation", "렌더", "차트", "게임"],
+      "message": "[seethrough:grounding] 렌더/실행 산출물 신호 감지 — __PLUGIN_ROOT__/packs/verification-grounding.md 의 그라운딩 루프를 따른다: 실제 렌더러에서 실행 → 실제 출력을 직접 관찰 → 관찰이 드러낸 결함만 수정 → 재실행. 정적 검사(well-formed)는 관찰(correct)이 아니다."
+    }
+  ]
+}
